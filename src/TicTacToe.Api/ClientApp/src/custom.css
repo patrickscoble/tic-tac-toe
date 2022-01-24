@@ -1,0 +1,78 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 68px;
+    height: 68px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 68px;
+}
+
+    .square:focus {
+        outline: none;
+    }
+
+.highlightWinner {
+    background-color: green;
+}
+
+.highlightLoser {
+    background-color: red;
+}
+
+.game {
+    min-height: 400px;
+    width: 50%;
+    margin: auto;
+}
+
+.game-board {
+    float: left;
+    width: 301px;
+    height: 301px;
+}
+
+.game-info {
+    margin-left: 20px;
+    float: right;
+}
+
+.btn-toggle {
+    margin-top: 10px;
+}
+
+.btn-clear {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.table-heading {
+    display: inline-block;
+    float: left;
+}
